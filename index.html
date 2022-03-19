@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="assets/css/estilo.css"/>
+    <title>MediCenter</title>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none'
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            });
+        };
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a><img src="assets/images/logo.png" width="200px"/>
+                    </a><div id="texto-logo"></div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
+                   
+                    <ul>
+                        <li class="active"><a class="cabecalho-list" href="">Home</a>
+                            <ul class="menu-aba">
+                                <li><a href="">Profissionais</a></li>
+                                <li><a href="">Centro clinico</a></li>
+                                <li><a href="">Missao</a></li>
+                                <li><a href="">Visao</a></li>
+                                <li><a href="">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-active"><a class="cabecalho-list" href="">blog</a>
+                            <ul class="menu-aba">
+                                <li><a href="">Profissionais</a></li>
+                                <li><a href="">Centro clinico</a></li>
+                                <li><a href="">Missao</a>
+                                <li><a href="">Visao</a></li>
+                                <li><a href="">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-active"><a class="cabecalho-list" href="">pages</a>
+                            <ul class="menu-aba">
+                                <li><a href="">Profissionais</a></li>
+                                <li><a href="">Centro clinico</a></li>
+                                <li><a href="">Missao</a></li>
+                                <li><a href="">Visao</a></li>
+                                <li><a href="">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-active"><a class="cabecalho-list" href="">departamentos</a></li>
+                        <li class="m-active"><a class="cabecalho-list" href="">timetable</a></li>
+                        <li class="m-active"><a class="cabecalho-list" href="">galeria</a></li>
+                        <li class="m-active"><a class="cabecalho-list" href="">contato</a></li>
+                        <li class="m-active"><a class="cabecalho-list" href="">shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="cabecalho_2">
+            <div class="header_line">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responssive template
+                    perfect for all screen sizes</h2>
+            </div>
+            <div class="header_menu">
+                <div id="menu_1">
+                    <div class="banner_titulo">Emergency Cese</div>
+                    <div class="banner-sub-titulo">Um texto qualquer</div>
+                    <a class="header-menu-botton" href="">Read more ></a>
+                </div>
+                <div id="menu_2">
+                    <div class="banner_titulo">Doctors Timetable</div>
+                    <div class="banner-sub-titulo">Um texto qualquer</div>
+                    <a  class="header-menu-botton"href="">Read more ></a>
+                </div>
+                <div id="menu_3">
+                    <div class="banner_titulo">Open Hours</div>
+                    <div class="hs">
+                        <div class="open-hors">Monday-Friday</div>
+                        <div class="hors">8.00 - 17.00</div>
+                    </div>
+                    <div class="hs">
+                        <div class="open-hors">Sturday</div>
+                        <div class="hors">9.30 - 17-30</div>
+                    </div>
+                    <div class="hs">
+                        <div class="open-hors">Sunday</div>
+                        <div class="hors">9.30 - 15.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Latest News</div>
+                        <div class="widget-bar"></div>
+                    </div>
+                    <div class="widget-body flex"> 
+
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-coments">2</div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr01.png"/>
+                                </div>
+                                <div class="news-title"> 
+                                    Loren ipsum dolor sit amat velum
+                                </div>
+                                <div class="news-resumo">
+                                    Dedicado a instituições médicas e de saúde, 
+                                    clínicas e hospitalares, médicos e todos os outros 
+                                    envolvidos nos serviços de saúde, o MediCenter é o tema 
+                                    WordPress médico mais popular e número 1 que vende. Para 
+                                    a elaboração sem esforço de sites da indústria médica ricos em recursos. 
+                                    De odontologia e consultórios psiquiátricos a veterinários, o MediCenter 
+                                    tem tudo o que você precisa.
+                                    Dedicado a instituições médicas e de saúde, 
+                                    clínicas e hospitalares, médicos e todos os outros.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-coments">2</div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr02.png"/>
+                                </div>
+                                <div class="news-title"> 
+                                    Loren ipsum dolor sit amat velum
+                                </div>
+                                <div class="news-resumo">
+                                    Dedicado a instituições médicas e de saúde, 
+                                    clínicas e hospitalares, médicos e todos os outros 
+                                    envolvidos nos serviços de saúde, o MediCenter é o tema 
+                                    WordPress médico mais popular e número 1 que vende. Para 
+                                    a elaboração sem esforço de sites da indústria médica ricos em recursos. 
+                                    De odontologia e consultórios psiquiátricos a veterinários, o MediCenter 
+                                    tem tudo o que você precisa.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-coments">2</div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr03.png"/>
+                                </div>
+                                <div class="news-title"> 
+                                    Loren ipsum dolor sit amat velum
+                                </div>
+                                <div class="news-resumo">
+                                    Dedicado a instituições médicas e de saúde, 
+                                    clínicas e hospitalares, médicos e todos os outros 
+                                    envolvidos nos serviços de saúde, o MediCenter é o tema 
+                                    WordPress médico mais popular e número 1 que vende. Para 
+                                    a elaboração sem esforço de sites da indústria médica ricos em recursos. 
+                                    De odontologia e consultórios psiquiátricos a veterinários, o MediCenter 
+                                    tem tudo o que você precisa.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-coments">2</div>
+                                </div>
+                                <div class="news-thumbnail">
+                                    <img src="assets/images/dr04.png"/>
+                                </div>
+                                <div class="news-title"> 
+                                    Loren ipsum dolor sit amat velum
+                                </div>
+                                <div class="news-resumo">
+                                    Dedicado a instituições médicas e de saúde, 
+                                    clínicas e hospitalares, médicos e todos os outros 
+                                    envolvidos nos serviços de saúde, o MediCenter é o tema 
+                                    WordPress médico mais popular e número 1 que vende. Para 
+                                    a elaboração sem esforço de sites da indústria médica ricos em recursos. 
+                                    De odontologia e consultórios psiquiátricos a veterinários, o MediCenter 
+                                    tem tudo o que você precisa.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <aside>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Departaments</div>
+                        <div class="widget-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="areas">
+                            <div class="coluna-1">
+                                <a class="coluna-info" href=""><div class="dep">Exames</div></a>
+                                <a class="coluna-info" href=""><div class="dep">Consultas</div></a>
+                                <a class="coluna-info" href=""><div class="dep">Clinico</div></a>
+                            </div>
+                            <div class="coluna-2">
+                                <a class="coluna-info" href=""><div class="dep">Dentista</div></a>
+                                <a class="coluna-info" href=""><div class="dep">Pediatria</div></a>
+                                <a class="coluna-info" href=""><div class="dep">Saiba Mais</div></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Make An Appointment</div>
+                        <div class="widget-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div id="Appointment">
+                            <div class="appointment-titulo">Para mais informaçães acesse nosso portal de relacionameto. Todos os dias. </div>
+                            <div class="appointment-info">Email: <a href>jairo.oliveira22@gmail.com</a></div>
+                            <div class="appointment-info">Tel: <a href>(15) 99739-2889</a></div>
+                            <div class="appointment-info">Site: <a href>www.desenvolvimentos.com.br</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+               
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footercolumn">
+            <div class="footer-menu">   
+               
+                <div class="fm-1">
+                    <div class="menu-title">
+                        <div class="fm-title">Find a clinic near you</div>
+                        <a href="" class="fm-link">Find Us On Map</a>
+                    </div>  
+                </div>
+                <div class="fm-2">
+                    <div class="menu-title">
+                        <div class="fm-title">Call for an appointment!</div>
+                        <a href=""class="fm-link">15 9 9739-2889</a>
+                    </div> 
+                </div>
+                <div class="fm-3"> 
+                    <div class="menu-title">
+                        <div class="fm-title">Feel free to message us!</div>
+                        <a href=""class="fm-link">Send an Email</a>
+                    </div> 
+                </div>
+
+            </div>
+            <div class="footer-info">
+                <div class="footerareas">
+                    
+                    <div class="footer-info-title">
+                        <div class="footer-info-title-text">Sobre Nos</div>
+                        <div class="footer-info-bar"></div>
+                    </div>
+                    <div class="footer-sobre-nos">
+                        <div class="footer-sobre-nos-text">
+                            No MediCenter, pretendemos criar medicamentos 
+                            que melhorem a qualidade e a duração da vida 
+                            dos pacientes.
+                        </div>
+                        <div class="footer-local">
+                            160 Sorocaba 
+                        </div>
+                        <div class="footer-local">
+                            Sao Paulo  
+                        </div>
+
+                        <div class="footer-body">
+                            <a href="" style="font-family: Arial, Helvetica, sans-serif;">(055) 15 9 9739 2889</a>
+                            <a href="" style="font-family: Arial, Helvetica, sans-serif;">(055) 15 9 9610 6183</a>
+                        </div>
+                        <div class="footer-body">
+                            <a href="">jairo.matos@development.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerareas">
+                    
+                    <div class="footer-info-title">
+                        <div class="footer-info-title-text">Links adicionais</div>
+                        <div class="footer-info-bar"></div>
+                    </div>
+
+                </div>
+                <div class="footerareas">
+                    
+                    <div class="footer-info-title">
+                        <div class="footer-info-title-text">Ultimas Postagens</div>
+                        <div class="footer-info-bar"></div>
+                    </div>
+
+                </div>
+                <div class="footerareas">
+                    
+                    <div class="footer-info-title">
+                        <div class="footer-info-title-text">Ultimos Tweets</div>
+                        <div class="footer-info-bar"></div>
+                    </div>
+                    <div class="footerareas-conteudo">
+                        We've released new version (v7.0) of our #Timetable #Responsive 
+                        #Booking #Schedule #WP Plugin. Please check at…
+                        t.co/cLQUCpySSF
+                        DEC 21 2021
+                        We've released new version (v6.9) of our #Timetable #Responsive
+                        #Booking #Schedule #WP Plugin. Please check at…
+                        t.co/KlzG7OsrVE
+                        DEC 9, 2021                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <div class="rodape">
+            <div class="rodape-bar">
+                <div class="rodape-bar-direitos">© 2022 <strong>Jairo Oliveira Matos</strong>
+                    desenvolvimentos - todos direitos reservados.
+                </div>
+                <div class="rodape-bar-direitos">
+                    <a href="" style="margin-right: 10px; font-size: 12px;">Privacy</a>
+                    <a href="" style="margin-right: 10px; font-size: 12px;">Terms</a>
+                    <a href="" style="margin-right: 10px; font-size: 12px;">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
